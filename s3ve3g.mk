@@ -17,11 +17,7 @@
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720   
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-extended
 
 # Audio
 PRODUCT_COPY_FILES += \
